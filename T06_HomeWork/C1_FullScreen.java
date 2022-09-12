@@ -18,7 +18,7 @@ public class C1_FullScreen {
 			e.printStackTrace();
 		}
 
-		// driver.close();
-		driver.quit();
+		// driver.close(); //closes only current tab.
+		driver.quit();	   //closes all the tabs i.e. the whole window.
 	}
 }
